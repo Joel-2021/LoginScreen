@@ -23,47 +23,50 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid">
-        <h4 class="brand-name">Main Stream</h4>
-        <div class="login-form">
-            <div class="logo">
-                <img src="/assets/logo.png" alt="" class="logo-img" />
-            </div>
-        <h4 class="heading">Login</h4>
-        <div class="mb-3">
+    <div
+      class="background container-fluid vh-100 d-flex flex-column align-items-center justify-content-center gap-1 bg-white"
+    >
+      <h4 class="brand-name pt-4">Main Stream</h4>
+      <div
+        class="bg-white login-form d-flex align-items-center justify-content-center flex-column p-4 position-relative"
+      >
+        <div class="logo position-absolute top-0 end-0">
+          <img src="/assets/logo.png" alt="" class="logo-img" />
+        </div>
+        <h4 class="heading pt-4 pb-2 align-self-start fw-semibold">Login</h4>
+        <div class="w-100 mb-1">
           <label for="email" class="form-label">Email address</label>
           <div class="input-group mb-3">
             <input
               type="email"
-              class="form-control"
+              class="form-control border-end-0 shadow-none"
               placeholder="abc@gmail.com"
               aria-describedby="basic-addon2"
             />
-            <span class="input-group-text"
-              ><span class="material-symbols-outlined"> mail </span></span
+            <span class="input-group-text icon border-start-0"
+              ><span class="material-symbols-outlined bg-white"> mail </span></span
             >
           </div>
         </div>
-        <div class="mb-3">
+        <div class="mb-3 w-100">
           <label for="password" class="form-label">Password</label>
           <div class="input-group mb-3">
             <input
               type="password"
-              class="form-control"
+              class="form-control border-end-0 shadow-none"
               placeholder="Password"
               aria-describedby="basic-addon2"
             />
-            <span class="input-group-text"
+            <span class="input-group-text icon border-start-0 bg-white"
               ><span class="material-symbols-outlined"> lock </span></span
             >
           </div>
         </div>
-        <button class="login-btn">Login</button>
+        <button class="login-btn py-2 fw-bold border-0 w-100">Login</button>
         <a href="#">Forgot Your Password?</a>
       </div>
       <p id="version">v1.02</p>
     </div>
-    <script>
-    </script>
+    <script></script>
   </body>
 </html>
